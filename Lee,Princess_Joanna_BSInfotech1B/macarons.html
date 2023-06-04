@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Beanery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="macarons.css">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="macarons">
+        <img src="macarons.jpg" alt="macarons" width="400px" height="450px">
+        <div class="main-product">
+            <h1 class="h1-macarons" itemprop="name">Macarons</h1>
+            <p>Macarons are a type of French pastry that consists of two almond-based meringue shells with a filling in between. They have a delicate texture and come in a variety of flavors and colors. They are often served as a dessert or a sweet snack.</p>
+            <p><u>Shipping Calculated at Checkout!</u></p>
+            <div class="product-form-item">
+                <div class="product-selector">
+                    <label for="flavor-selector">Select flavor:</label>
+                    <select id="flavor-selector" name="flavor">
+                        <option value="dark-chocolate">Dark Chocolate Macarons</option>
+                        <option value="chocolate">Chocolate Macarons</option>
+                        <option value="vanilla">Vanilla Macarons</option>
+                    </select>
+                </div>
+                <div class="quantity">
+                    <label for="macaron-quantity">Quantity:</label>
+                    <input type="number" id="macaron-quantity" name="macaron-quantity" min="1" value="1">
+                </div>
+            </div>
+            <div class="product-buttons">
+                <button class="buy-it-now" onclick="window.open('orderset.html', '_blank');">BUY IT NOW</button>
+                <button class="return-to-product" onclick="location.href='beanery2.html #Product';">RETURN TO PRODUCT</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div style="text-align: center;">
+            <small class="small">&copy; 2023 The Beanery</small>
+        </div>
+    </footer>
+</body>
+</html>

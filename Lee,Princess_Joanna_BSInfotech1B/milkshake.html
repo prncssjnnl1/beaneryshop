@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Beanery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="milkshake.css">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="milkshake">
+        <img src="milkshake.jpg" alt="milkshake" width="400px" height="450px">
+        <div class="main-product">
+            <h1 class="h1-milkshake" itemprop="name">Milkshake</h1>
+            <p>The Beanery milkshake is a delicious and refreshing drink made with creamy ice cream, fresh milk, and a variety of flavorful toppings. Whether you prefer classic flavors like vanilla and chocolate or more adventurous options like peanut butter and banana, there's a milkshake for everyone at the Beanery. Sip on a sweet treat while enjoying the cozy atmosphere of this popular cafe. Don't forget to snap a photo for your social media feed! The Beanery milkshake is the perfect indulgence on a hot summer day or anytime you're in the mood for something sweet and satisfying.</p>
+            <p><u>Shipping Calculated at Checkout!</u></p>
+            <div class="product-form-item">
+                <div class="product-selector">
+                    <label for="flavor-selector">Select flavor:</label>
+                    <select id="flavor-selector" name="flavor">
+                        <option value="chocolate">Chocolate Creme Milkshake</option>
+                        <option value="strawberry">Strawberry Creme Milkshake</option>
+                        <option value="vanilla">Vanilla Creme Milkshake</option>
+                        <option value="mocha">Mocha Creme Milkshake</option>
+                    </select>
+                </div>
+                <div class="size-selector">
+                    <h2>Size:</h2>
+                    <div class="size-option">
+                        <input type="radio" id="small" name="size" value="small" checked>
+                        <label for="small">Small</label>
+                    </div>
+                    <div class="size-option">
+                        <input type="radio" id="medium" name="size" value="medium">
+                        <label for="medium">Medium</label>
+                    </div>
+                    <div class="size-option">
+                        <input type="radio" id="large" name="size" value="large">
+                        <label for="large">Large</label>
+                    </div>
+                </div>
+                <div class="quantity">
+                    <label for="milkshake-quantity">Quantity:</label>
+                    <input type="number" id="milkshake-quantity" name="milkshake-quantity" min="1" value="1">
+                </div>
+            </div>
+            <div class="product-buttons">
+                <button class="buy-it-now" onclick="window.open('orderset.html', '_blank');">BUY IT NOW</button>
+                <button class="return-to-product" onclick="location.href='beanery2.html #Product';">RETURN TO PRODUCT</button>
+            </div>
+        </div>
+    </div>
+    <hr class="hr">
+    <footer>
+        <div style="text-align: center;">
+            <small class="small">&copy; 2023 The Beanery</small>
+        </div>
+    </footer>
+</body>
+</html>

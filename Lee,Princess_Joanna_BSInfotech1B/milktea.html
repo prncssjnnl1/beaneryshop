@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Beanery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="milktea.css">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="milktea">
+        <img src="milktea.jpg" alt="milktea" width="400px" height="450px">
+        <div class="main-product">
+            <h1 class="h1-milktea" itemprop="name">Milktea</h1>
+            <p>Milk tea is a beverage made by combining tea with milk and sweetener. It originated in Taiwan and has become popular worldwide. Milk tea can be served hot or cold and is often flavored with fruit or other ingredients. It is a refreshing and comforting drink that is enjoyed by many.</p>
+            <p><u>Shipping Calculated at Checkout!</u></p>
+            <div class="product-form-item">
+                <div class="product-selector">
+                    <label for="flavor-selector">Select flavor:</label>
+                    <select id="flavor-selector" name="flavor">
+                        <option value="boba">Boba Milktea</option>
+                        <option value="thai">Thai Milktea</option>
+                        <option value="matcha">Matcha Milktea</option>
+                    </select>
+                </div>
+                <div class="size-selector">
+                    <h2>Size:</h2>
+                    <div class="size-option">
+                        <input type="radio" id="small" name="size" value="small" checked>
+                        <label for="small">Small</label>
+                    </div>
+                    <div class="size-option">
+                        <input type="radio" id="medium" name="size" value="medium">
+                        <label for="medium">Medium</label>
+                    </div>
+                    <div class="size-option">
+                        <input type="radio" id="large" name="size" value="large">
+                        <label for="large">Large</label>
+                    </div>
+                </div>
+                <div class="quantity">
+                    <label for="milktea-quantity">Quantity:</label>
+                    <input type="number" id="milktea-quantity" name="milktea-quantity" min="1" value="1">
+                </div>
+            </div>
+            <div class="product-buttons">
+                <button class="buy-it-now" onclick="window.open('orderset.html', '_blank');">BUY IT NOW</button>
+                <button class="return-to-product" onclick="location.href='beanery2.html #Product';">RETURN TO PRODUCT</button>
+            </div>
+        </div>
+    </div>
+    <hr class="hr">
+    <footer>
+        <div style="text-align: center;">
+            <small class="small">&copy; 2023 The Beanery</small>
+        </div>
+    </footer>
+</body>
+</html>

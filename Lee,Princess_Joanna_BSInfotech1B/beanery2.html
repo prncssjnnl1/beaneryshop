@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Beanery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="beanery.css">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="navbar">
+            <div class="logo-container">
+                <img src="logo.jpg" alt="Logo">
+                <h1 class="logo">THE BEANERY</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Product">Product</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<section class="Home" id="Home">
+    <h1 class="h1">The<br>Beanery</h1>
+    <h2 class="h2">"Welcome to our coffee shop,<br>where we serve the finest, freshly roasted coffee in town. From bold and rich to smooth and creamy, we have the perfect cup for every coffee lover."</h2>
+    <a href="#Product"><button class="btn">ORDER NOW</button></a>
+</section>
+<section class="Product" id="Product">
+    <h1>Products</h1>
+    <p class="enjoy">Enjoy Fresh Brewed Coffee and Sweet Foods at The Beanery!</p>
+    <div class="beanerypro">
+        <div class="menu">
+            <img src="milkshake.jpg" alt="Milkshake">
+            <h3 class="h3">MILKSHAKE</h3>
+            <p class="description">Milkshake is a sweet, cold and frothy beverage typically made from milk, ice cream, and flavorings such as fruit, chocolate or caramel syrup.</p>
+            <button class="Order" onclick="window.open('milkshake.html', '_blank');">Order</button>
+        </div>
+        <div class="menu">
+            <img src="donut.jpg" alt="Donuts">
+            <h3 class="h3">DONUTS</h3>
+            <p class="description">Donuts are a type of sweet fried pastry, typically in the shape of a ring, and often topped with glaze or sprinkles.</p>
+            <button class="Order" onclick="window.open('donuts.html', '_blank');">Order</button>
+        </div>
+        <div class="menu">
+            <img src="milktea.jpg" alt="Milktea">
+            <h3 class="h3">MILKTEA</h3>
+            <p class="description">Milk tea is a popular beverage made from tea, milk, and sugar, often served with tapioca pearls or other flavored jelly-like toppings.</p>
+            <button class="Order" onclick="window.open('milktea.html', '_blank');">Order</button>
+        </div>
+        <div class="menu">
+            <img src="macarons.jpg" alt="Macarons">
+            <h3 class="h3">MACARONS</h3>
+            <p class="description">Macarons are a type of sweet French pastry made from ground almonds and meringue, sandwiched together with a variety of flavored fillings.</p>
+            <button class="Order" onclick="window.open('macarons.html', '_blank');">Order</button>
+        </div>
+    </div>
+</section>
+<section class="About" id="About">
+    <div class="aboutus">
+        <div class="image-section">
+            <img src="frap.jpg" alt="Frappuccino">
+        </div>
+        <div class="content-section">
+            <h2 class="title">About Us</h2>
+            <div class="content">
+                <h3><span style="background-color: rgb(226, 226, 209);">The Beanery</span>, we aspire for quality, character and excellence in all we do.</h3>
+                <p>Product We aim to serve the best quality and most interesting varieties of coffees, teas, espresso drinks and accompaniments at all times to everyone.<br>Service We strive to treat our customers respectfully as our guests; we intend to offer our guests service that is prompt, efficient, friendly, and relaxed.<br>Atmosphere We will provide a pleasant, welcoming environment, and will maintain a clean and attractive coffee house at all times.<br>Work Environment We want <span style="background-color:rgb(226, 226, 209);">The Beanery</span> to be a great place to work. We aim to create a positive, respectful workplace and to empower our staff to be themselves and to achieve their fullest potential.<br>Community <span style="background-color: rgb(226, 226, 209);">The Beanery</span> is committed to furthering the spirit and well-being of our neighborhood and the overall Cambridge community.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="Contact" id="Contact">
+    <div class="container">
+        <div class="contactinfo">
+            <div>
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><img src="loc.png" alt="Location"></span>
+                        <span>44 Santo Nino<br> Palauig, Zambales</span>
+                    </li>
+                    <li>
+                        <span><img src="mail.png" alt="Email"></span>
+                        <span>the_beanerycoffee0@gmail.com</span>
+                    </li>
+                    <li>
+                        <span><img src="call.png" alt="Phone"></span>
+                        <span>416-240-5021</span>
+                    </li>
+                </ul>
+                <ul class="sci">
+                    <li><a href="https://web.facebook.com/profile.php?id=100091981453896"><img src="fb.png" width="50px" alt="Facebook"></a></li>
+                    <li><a href="https://twitter.com/TheBeaneryShop"><img src="twt.png" width="50px" alt="Twitter"></a></li>
+                    <li><a href="https://www.instagram.com/thebeaneryshop5/"><img src="ig.png" width="50px" alt="Instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="allform">
+            <div class="contactForm">
+                <h2>Send a Message</h2>
+                <form class="cont" action="" method="post">
+                    <div class="formBox">
+                        <div class="inputBox w50">
+                            <input type="text" name="firstName" required>
+                            <span>First Name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="text" name="lastName" required>
+                            <span>Last Name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="email" name="emailAddress" required>
+                            <span>Email Address</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="tel" name="mobileNumber" required>
+                            <span>Mobile Number</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <textarea name="message" required></textarea>
+                            <span>Write your message here...</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <input type="submit" value="Send">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<hr class="hr">
+<footer>
+    <div style="text-align: center;">
+        <small class="small">&copy; 2023 The Beanery.</small>
+    </div>
+</footer>
+</body>
+</html>
+
+
+
+
